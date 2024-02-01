@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  background-color: var(--bg-dark);
+  font-family: var(--font-dm-sans);
 }
 
 /* mobile first */
@@ -27,6 +29,7 @@ main {
 }
 
 footer {
-  background-color: #8b96fd;
+  background-color: #c08bfd;
   grid-area: footer;
 }
+/* end mobile first */

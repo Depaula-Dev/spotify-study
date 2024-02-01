@@ -1,0 +1,13 @@
+:root {
+  /* font */
+  --font-dm-sans: "DM Sans", sans-serif;
+
+  /* colors */
+  --bg-icon: #131313;
+  --bg-arrow-color: rgba(0, 0, 07);
+  --bg-dark: #000; /* page background color */
+  --bg-gray: #121212; /* sidebar color */
+  --bg-gray-light:#242424; /* color: playlist/ podcast */
+  --text-base-white: #fff; /* text color */
+  --text-link-navigation: #b3b3b3; /* text color Inicio/Buscar  */
+}
