@@ -8,13 +8,11 @@
 
     <div class="sidebar">
         <!-- menu nav: Logo, Início e Buscar -->
-        <nav class="sidebar__navigation">
-            <div>
+        <nav>
+            <div class="sidebar__navigation bright-link">
                 <a href="">
                     <img class="logo" src="../src/assets/icons/logo-spotify.png" alt="Logo do Spotify">
                 </a>
-            </div>
-            <div>
                 <ul>
                     <li>
                         <a href="">
@@ -30,7 +28,23 @@
                     </li>
                 </ul>
             </div>
+
+            <!-- menu nav: Biblioteca -->
+            <div class="sidebar__navigation bright-link">
+                <div class="sidebar__navigation__library">
+                    <a href="">
+                        <i class="fa-solid fa-book"></i>
+                        <span>Sua Biblioteca</span>
+                    </a>
+                    <button class="sidebar__navigation--plus">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+
+                </div>
+
+            </div>
         </nav>
+
     </div>
 
 

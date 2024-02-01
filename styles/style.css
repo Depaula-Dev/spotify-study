@@ -13,6 +13,7 @@ body {
   height: 100vh;
 }
 
+
 header {
   background-color: #c08bfd;
   grid-area: header;
@@ -21,6 +22,10 @@ header {
 aside {
   background-color: #f6c356;
   grid-area: aside;
+}
+
+aside iframe {
+  height: 100%;
 }
 
 main {
