@@ -58,3 +58,48 @@
 .sidebar__navigation--plus i {
   color: var(--text-link-navigation);
 }
+
+.section {
+  background-color: var(--bg-gray-light);
+  color: var(--text-base-white);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.section__content h5 {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 10px;
+
+}
+
+.section__content h6 {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 15px;
+
+}
+
+.section__content button {
+  background-color: var(--text-base-white);
+  color: var(--bg-dark);
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 10px 15px;
+}
+
+.section__content button:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+
