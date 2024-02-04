@@ -43,28 +43,58 @@
   font-size: 14px;
 }
 
-.sidebar__navigation__library {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+.sidebar__library {
+  background-color: var(--bg-gray);
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 
-.sidebar__navigation--plus {
+.sidebar__library__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.sidebar__library--plus {
   border: none;
   background-color: transparent;
   cursor: pointer;
 }
 
-.sidebar__navigation--plus i {
+.sidebar__library--plus i {
   color: var(--text-link-navigation);
+}
+
+/* section playlist/ podcast */
+
+.scroll {
+  height: 120px;
+  overflow-y: scroll;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scroll::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(128, 128, 128, 0.677);
+  height: 55px;
+}
+
+.scroll::-webkit-scrollbar-thumb:hover {
+  background-color: gray;
 }
 
 .section {
   background-color: var(--bg-gray-light);
   color: var(--text-base-white);
   border-radius: 8px;
-  padding: 20px;
-  margin-bottom: 10px;
+  padding: 15px;
+  margin-left: 7px;
 }
 
 .section__content h5 {
@@ -72,7 +102,6 @@
   font-weight: 700;
   margin: 0;
   margin-bottom: 10px;
-
 }
 
 .section__content h6 {
@@ -80,7 +109,6 @@
   font-weight: 500;
   margin: 0;
   margin-bottom: 15px;
-
 }
 
 .section__content button {
@@ -90,16 +118,12 @@
   border-radius: 50px;
   font-weight: 700;
   font-size: 12px;
-  padding: 10px 15px;
+  padding: 10px 12px;
+  cursor: pointer;
 }
 
 .section__content button:hover {
   transform: scale(1.05);
 }
-
-
-
-
-
-
+/* end section playlist/ podcast */
 
