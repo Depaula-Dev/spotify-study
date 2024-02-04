@@ -127,3 +127,28 @@
 }
 /* end section playlist/ podcast */
 
+/* privacy configuration */
+.privacy {
+  padding: 20px 10px 20px 0px;
+}
+
+.privacy__item {
+  display: flex;
+  padding-left: 20px;
+  gap: 30px;
+}
+
+.privacy__item a {
+  color: var(--text-link-navigation);
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.privacy__item a:hover {
+  color: var(--text-link-navigation);
+}
+
+.privacy__item--cookies a:hover {
+  text-decoration: underline;
+}
+/* end privacy configuration */
