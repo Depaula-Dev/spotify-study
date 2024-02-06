@@ -1,3 +1,8 @@
+.premium {
+  padding-left:10px;
+  padding-right: 15px;
+}   
+
 .banner__premium {
   display: flex;
   justify-content: space-between;
@@ -9,13 +14,15 @@
 }
 
 .banner__premium__title {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: bold;
+  line-height: 0;
+  margin-top: 20px;
 }
 
 .banner__premium__subtitle {
   font-size: 15px;
-  font-weight: 530;
+  font-weight: 540;
 }
 
 .banner__premium--button {
@@ -24,8 +31,8 @@
   font-weight: bold;
   border-radius: 50px;
   border: none;
-  padding: 15px 30px 15px 30px;
-  margin-right: 20px;
+  padding: 14px 30px 14px 30px;
+  margin-right: 40px;
 }
 
 .banner__premium--button:hover {

@@ -1,7 +1,7 @@
 @media (width > 480px) {
   .layout {
     display: grid;
-    grid-template-rows: 60px auto 60px 85px;
+    grid-template-rows: 60px auto 60px 75px;
     grid-template-columns: 300px auto;
     grid-template-areas:
       "aside header header"
