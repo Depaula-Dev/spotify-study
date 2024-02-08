@@ -9,6 +9,7 @@
   --bg-gray: #121212; /* sidebar color */
   --bg-gray-light: #242424; /* color: playlist/ podcast */
   --bg-arrow-color: rgba(0, 0, 07); /* color: arrow left/right */
+  --text-gray: rgb(163, 159, 159);
   --text-base-white: #fff; /* text color */
   --text-link-navigation: #b3b3b3; /* text color Inicio/Buscar  */
 

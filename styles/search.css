@@ -42,7 +42,7 @@
 
 .navigation__login a {
   text-decoration: none;
-  color: var(--text-link-navigation);
+  color: var(--text-gray);
   font-weight: bold;
   margin-right: 30px;
 }
