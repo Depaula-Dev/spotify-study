@@ -45,14 +45,18 @@
 
 .sidebar__library {
   background-color: var(--bg-gray);
-  border-radius: 8px;
-  margin-bottom: 10px;
+  border-radius: 8px; 
 }
 
 .sidebar__library__content {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  padding-right: 10px;
+}
+
+.sidebar__library__content span {
+  padding-left: 10px;
 }
 
 .sidebar__library--plus {
@@ -61,7 +65,7 @@
   cursor: pointer;
 }
 
-.sidebar__library--plus i {
+.sidebar__library--plus i span{
   color: var(--text-link-navigation);
 }
 
