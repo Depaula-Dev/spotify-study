@@ -1,34 +1,99 @@
 <link rel="stylesheet" href="../styles/root.css">
 <link rel="stylesheet" href="../styles/style.css">
 <link rel="stylesheet" href="../styles/media.css">
+<link rel="stylesheet" href="../styles/search.css">
 <link rel="stylesheet" href="../styles/main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
 <body>
+
+
+    <header class="search">
+        <div class="navigation">
+
+            <!--arrow and search-->
+            <div class="navigation__arrow">
+                <div>
+                    <button>
+                        <img src="../src/assets/icons/small-left.png" alt="">
+                    </button>
+
+                    <button>
+                        <img src="../src/assets/icons/small-right.png" alt="">
+                    </button>
+                </div>
+
+                <div class="navigation__search">
+                    <input id="search-input" class="search" type="search" placeholder="O que você quer ouvir?">
+                </div>
+            </div>
+
+            <!--buttons-->
+            <div class="navigation__login">
+                <div>
+                    <a href="">Inscrever-se</a>
+                </div>
+                <div>
+                    <button class="navigation__login--button">Entrar</button>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+
+
     <div class="scroll">
         <div class="container">
-    
+
             <!--Cards-->
-            <div class="playlist__container">
-
-                    <h1 class="session">Navegar por todas as seções</h1>
-
+            <div id="playlist-result" class="playlist__container">
+                <h1 class="session">Navegar por todas as seções</h1>
 
                 <section id="section" class="playlist__container__cards">
 
                 </section>
+            </div>
+
+            <!--Artists List-->
+            <div id="artist-result" class="hidden">
+
+                <div class="artist-result">
     
+                    <!-- <a class="artist-result__link" href="">
     
+                        <button class="play">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+    
+                        <div class="artist-result__card">
+    
+                            <img id="artist-img" src="../src/assets/playlist/10.jpeg">
+    
+                            <div class="artist-result__text">
+                                <span class="artist-result__name">Caetano Veloso</span>
+                                <span class="artist-result__categorie">Artista</span>
+                            </div>
+    
+                        </div>
+                    </a> -->
+    
+                </div>
+
             </div>
 
             <div class="footer">
-                <iframe src="../footer/footer.html" frameborder="0"  scrolling="no"></iframe>
-            </div>    
-    
+                <iframe src="../footer/footer.html" frameborder="0" scrolling="no"></iframe>
+            </div>
+
         </div>
 
     </div>
 
     <script src="../script.js"></script>
+    <script src="../search.js"></script>
+
 
 
 

@@ -1,13 +1,11 @@
 @media (width > 480px) {
   .layout {
     display: grid;
-    grid-template-rows: 80px auto auto 75px;
+    grid-template-rows: auto 75px;
     grid-template-columns: 300px auto;
     grid-template-areas:
-      "aside header header"
-      "aside main main"
-      "aside main main"
-      "banner banner banner";
+      "aside main"
+      "banner banner";
   }
 
   aside .desktop {
@@ -27,10 +25,6 @@
   }
 
   .banner iframe {
-    width: 100%;
-  }
-
-  .search iframe {
     width: 100%;
   }
 

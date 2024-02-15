@@ -39,8 +39,7 @@ async function getAllArtists() {
     cardsSection.append(link);
     
     colorNumber++;
-    console.log(card);
-  });
+    });
 }
 
 async function serviceArtist() {
