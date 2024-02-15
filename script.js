@@ -20,7 +20,7 @@ async function getAllArtists() {
 
   //mostre cada card de data
   data.forEach((element) => {
-    let link = document.createElement("a");
+    let linkPlaylist = document.createElement("a");
 
     let card = document.createElement("div");
     card.classList.add("cards");
@@ -33,10 +33,10 @@ async function getAllArtists() {
     let image = document.createElement('img');
     image.src = element.urlImg;
 
-    link.append(card);
+    linkPlaylist.append(card);
     card.append(title);
     card.append(image);
-    cardsSection.append(link);
+    cardsSection.append(linkPlaylist);
     
     colorNumber++;
     });
