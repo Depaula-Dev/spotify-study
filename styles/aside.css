@@ -45,7 +45,7 @@
 
 .sidebar__library {
   background-color: var(--bg-gray);
-  border-radius: 8px; 
+  border-radius: 8px;
 }
 
 .sidebar__library__content {
@@ -65,7 +65,7 @@
   cursor: pointer;
 }
 
-.sidebar__library--plus i span{
+.sidebar__library--plus i span {
   color: var(--text-link-navigation);
 }
 
@@ -86,12 +86,12 @@
 }
 
 .scroll::-webkit-scrollbar-thumb {
-  background-color: rgba(128, 128, 128, 0.677);
+  background-color: var(--bg-scrollbar);
   height: 55px;
 }
 
 .scroll::-webkit-scrollbar-thumb:hover {
-  background-color: gray;
+  background-color: var(--bg-scrollbar-hover);
 }
 /* end scroll */
 

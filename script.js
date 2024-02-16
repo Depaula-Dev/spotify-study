@@ -27,19 +27,19 @@ async function getAllArtists() {
 
     card.classList.add(`card${colorNumber}`);
 
-    let title = document.createElement('h2');
+    let title = document.createElement("h2");
     title.textContent = element.card;
 
-    let image = document.createElement('img');
+    let image = document.createElement("img");
     image.src = element.urlImg;
 
     linkPlaylist.append(card);
     card.append(title);
     card.append(image);
     cardsSection.append(linkPlaylist);
-    
+
     colorNumber++;
-    });
+  });
 }
 
 async function serviceArtist() {

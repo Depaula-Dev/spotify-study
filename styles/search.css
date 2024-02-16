@@ -33,8 +33,7 @@
   border: 0 solid var(--text-base-white);
   width: 350px;
   caret-color: white;
-  color: var(--text-base-white)
-  
+  color: var(--text-base-white);
 }
 
 .navigation__login {

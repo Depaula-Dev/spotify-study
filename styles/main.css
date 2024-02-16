@@ -112,12 +112,12 @@ h2 {
 }
 
 .scroll::-webkit-scrollbar-thumb {
-  background-color: rgba(128, 128, 128, 0.677);
+  background-color: var(--bg-scrollbar);
   height: 55px;
 }
 
 .scroll::-webkit-scrollbar-thumb:hover {
-  background-color: gray;
+  background-color: var(--bg-scrollbar-hover);
 }
 /* end scroll */
 
@@ -149,7 +149,6 @@ h2 {
   background-color: #181818;
   border-radius: 8px;
   padding: 15px 15px 40px 15px;
-
 }
 
 .artist-result__card:hover {
@@ -166,7 +165,7 @@ h2 {
   position: absolute;
   left: 130px;
   top: 140px;
-  background-color: #1db954;
+  background-color: var(--bg-green);
   border-radius: 50%;
   width: 50px;
   height: 50px;
