@@ -21,9 +21,20 @@
   cursor: pointer;
 }
 
+.search_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .search {
   background: transparent url(../src/assets/icons/search.png) no-repeat 15px;
   background-size: 18px;
+}
+
+
+.mobile-hidden {
+  display: none;
 }
 
 .navigation__search input {
@@ -32,7 +43,7 @@
   border-radius: 30px;
   border: 0 solid var(--text-base-white);
   width: 350px;
-  caret-color: white;
+  caret-color: var(--text-base-white);
   color: var(--text-base-white);
 }
 

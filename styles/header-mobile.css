@@ -1,0 +1,23 @@
+.navigation__login__mobile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--bg-gray-light);
+  padding: 18px;
+}
+
+.navigation__login__mobile a {
+  text-decoration: none;
+  color: var(--text-gray);
+  font-weight: bold;
+}
+
+.navigation__login__mobile button {
+  background-color: var(--text-base-white);
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 30px;
+  cursor: pointer;
+}

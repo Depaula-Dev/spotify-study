@@ -18,6 +18,66 @@
     width: 100%;
   }
 
+  .search_container {
+    display: block;
+  }
+
+  .mobile-hidden {
+    display: block;
+  }
+
+  header {
+    display: none;
+  }
+
+  .playlist__container {
+    padding: 10px 50px;
+  }
+
+  .playlist__container__cards {
+    padding: 0;
+  }
+
+  .playlist__container__cards a {
+    width: 200px;
+  }
+
+  .cards {
+    width: 200px;
+  }
+
+  .artist-result__link {
+    width: auto;
+  }
+
+  .artist-result__card {
+    padding: 15px 15px 40px 15px;
+    width: auto;
+  }
+
+  .artist-result__card img {
+    width: 170px;
+  }
+
+  .play {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    left: 130px;
+    top: 140px;
+    background-color: var(--bg-green);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    transition: all ease 0.4s;
+  }
+
+  .play i {
+    display: block;
+    font-size: 20px;
+  }
+
   .banner {
     display: block;
     width: 100%;
@@ -31,5 +91,10 @@
   .container iframe {
     width: 100%;
     height: 100%;
+  }
+
+  .footer {
+    display: block;
+    grid-area: footer;
   }
 }

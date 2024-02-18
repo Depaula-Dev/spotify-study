@@ -1,19 +1,19 @@
 <link rel="stylesheet" href="../styles/root.css">
-<link rel="stylesheet" href="../styles/style.css">
-<link rel="stylesheet" href="../styles/media.css">
 <link rel="stylesheet" href="../styles/search.css">
+<link rel="stylesheet" href="../styles/style.css">
 <link rel="stylesheet" href="../styles/main.css">
+<link rel="stylesheet" href="../styles/media.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
 <body>
 
 
-    <header class="search">
+    <div class="search_container">
         <div class="navigation">
 
             <!--arrow and search-->
             <div class="navigation__arrow">
-                <div>
+                <div class="mobile-hidden">
                     <button>
                         <img src="../src/assets/icons/small-left.png" alt="">
                     </button>
@@ -30,17 +30,17 @@
 
             <!--buttons-->
             <div class="navigation__login">
-                <div>
+                <div class="mobile-hidden">
                     <a href="">Inscrever-se</a>
                 </div>
-                <div>
+                <div class="mobile-hidden">
                     <button class="navigation__login--button">Entrar</button>
                 </div>
             </div>
 
         </div>
 
-    </header>
+    </div>
 
 
 
@@ -58,7 +58,7 @@
             <!--Artists List-->
             <div id="artist-grid" class="hidden">
 
-                <div id="artist-result" class="artist-result">
+                <div id="artist-result" class="artist__result">
                 </div>
 
             </div>
