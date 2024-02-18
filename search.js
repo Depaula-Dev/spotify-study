@@ -5,7 +5,8 @@ const artistResult = document.getElementById("artist-result");
 
 searchInput.addEventListener("input", function () {
   const searchTerm = searchInput.value.toLowerCase();
-  const apiUrlSearch = `http://localhost:3000/artists?name_like=${searchTerm}`;
+  const apiUrlSearch =
+    "https://depaula-dev.github.io/spotify-study/api/artists.json";
 
   if (searchTerm === "") {
     artistGrid.classList.add("hidden");
@@ -13,34 +14,37 @@ searchInput.addEventListener("input", function () {
     return;
   }
 
-  requestArtist(apiUrlSearch);
+  requestArtist(apiUrlSearch, searchTerm);
 });
 
-async function requestArtist(apiUrlSearch) {
+async function requestArtist(apiUrlSearch, searchTerm) {
   try {
     const response = await fetch(apiUrlSearch);
     const data = await response.json();
-    displayResult(data);
+    displayResult(data, searchTerm);
   } catch (error) {
     console.error("Erro ao obter dados");
   }
 }
 
-async function displayResult(data) {
+async function displayResult(data, searchTerm) {
+  let _data = data["artists"].filter((result) =>
+    result.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   artistGrid.classList.remove("hidden");
   playlistContainer.classList.add("hidden");
 
   const getElement = document.getElementsByClassName("artist-result__link");
-  const cards = [...getElement]
+  const cards = [...getElement];
 
   if (cards) {
-    cards.forEach(elemento => {
+    cards.forEach((elemento) => {
       elemento.parentNode.removeChild(elemento);
-  });
-
+    });
   }
 
-  data.forEach((result) => {
+  _data.forEach((result) => {
     let linkArtist = document.createElement("a");
     linkArtist.classList.add("artist-result__link");
 

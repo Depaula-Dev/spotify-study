@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:3000/main-cards";
+const apiUrl = "https://depaula-dev.github.io/spotify-study/api/artists.json";
 
 // chame o onInit assim que o carregamento da tela completar
 document.addEventListener("DOMContentLoaded", function () {
@@ -14,7 +14,8 @@ function onInit() {
 async function getAllArtists() {
   const cardsSection = document.getElementById("section");
   //chamada concluída
-  const data = await serviceArtist();
+  let data = await serviceArtist();
+  data = data["main-cards"];
 
   let colorNumber = 1;
 
