@@ -10,7 +10,7 @@ Os dados exibidos na tela incial e o resultado do componente de busca dos artist
 Optei por implementar um layout em grid, o que possibilitou uma manipulação mais eficaz dos elementos e garantiu uma experiência responsiva entre desktop e dispositivos móveis.
 
 ## Demonstração
-Você pode visualizar o projeto funcionando <a href="link_do_projeto" target="_blank">aqui</a>.
+Você pode visualizar o projeto funcionando <a href="https://depaula-dev.github.io/spotify-study/" target="_blank">aqui</a>.
 
 ## Tecnologias Utilizadas
 Neste projeto foram utilizados HTML5, CSS3 e Javascript, seguindo os princípios de clean code, mobile first e utilizando a metodologia SOLID e BEM.
