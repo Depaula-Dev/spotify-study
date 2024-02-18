@@ -16,7 +16,6 @@ body {
 
 header {
   display: block;
-  background-color: rgb(222, 125, 125);
   grid-area: header;
 }
 
@@ -26,7 +25,6 @@ header iframe {
 }
 
 aside {
-  background-color: #f6c356;
   grid-area: aside;
 }
 
@@ -44,7 +42,6 @@ aside .mobile {
 main {
   display: flex;
   justify-content: center;
-  background-color: #b2ee94;
   grid-area: main;
 }
 
@@ -55,13 +52,11 @@ main iframe {
 
 .banner {
   display: none;
-  background-color: #ff00cc7f;
   grid-area: banner;
 }
 
 .footer {
   display: none;
-  background-color: #684beab4;
   grid-area: footer;
 }
 /* end mobile first */
