@@ -21,5 +21,8 @@ Neste projeto foram utilizados HTML5, CSS3 e Javascript, seguindo os princípios
 **Roseli de Paula** (https://github.com/Depaula-Dev)  
 **Fernando Oliveira** (https://github.com/Oliro) - ***Orientador voluntário do projeto***.
 
-Agradeço à Alura pela realização do treinamento e à mentoria voluntária do **Desenvolvedor Fernando** que foi fundamental para o projeto final.
+Agradeço à Alura pela realização do treinamento e à mentoria voluntária do **Desenvolvedor Fernando** que foi fundamental para a refatoração do código e chegar a esse projeto final.
+
+## Como usar
+Você pode procurar por esses artistas: Arlindo Cruz, Caetano Veloso, Chitãozinho e Xororó, Emicida, Foo Fighters, Michael Jackson e MC Coringa.
 
