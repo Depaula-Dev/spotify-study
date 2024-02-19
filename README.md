@@ -7,7 +7,7 @@ Ao longo do desenvolvimento aprimorei o projeto refatorando o código seguindo o
 
 Os dados exibidos na tela incial e o resultado do componente de busca dos artistas foram gerados dinamicamente a partir de um JSON, servido como um mockup através do json-server.
 
-Optei por implementar um layout em grid, o que possibilitou uma manipulação mais eficaz dos elementos e garantiu uma experiência responsiva entre desktop e dispositivos móveis.
+Optei por implementar um layout em grid, o que possibilitou uma manipulação mais eficaz dos elementos e garantiu uma experiência responsiva tanto para desktop quanto para dispositivos móveis.
 
 ## Demonstração
 Você pode visualizar o projeto funcionando <a href="https://depaula-dev.github.io/spotify-study/" target="_blank">aqui</a>.
